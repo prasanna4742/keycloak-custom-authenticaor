@@ -1,4 +1,4 @@
-# keycloak-custom-authenticaor
+# keycloak-custom-authenticator
 - mvn clean install
 - Add the jar @ /opt/keycloak/providers/ in keycloak
 - Now modify direct grant flow to add only username and sa-otp authenticator. (Direct flow would look like below )
